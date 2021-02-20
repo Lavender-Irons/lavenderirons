@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
-		<title>Landing Case Study</title>
-		<meta charset="UTF-8" />
-		<meta name="keywords" content="HTML, CSS, JavaScript" />
-		<meta name="author" content="Lavender Irons" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
+		<title>UX Case Study Langing Page</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script
 			async
@@ -21,175 +24,79 @@
 
 			gtag('config', 'G-6BJ0DW1MKC');
 		</script>
-
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-			crossorigin="anonymous"
-		></script>
-
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-			crossorigin="anonymous"
-		/>
-
-		<link rel="stylesheet" type="text/css" href="css/landing.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-		<!-- Hotjar Tracking Code for https://lavenderirons.herokuapp.com/ -->
-		<script>
-			(function (h, o, t, j, a, r) {
-				h.hj =
-					h.hj ||
-					function () {
-						(h.hj.q = h.hj.q || []).push(arguments);
-					};
-				h._hjSettings = { hjid: 2194885, hjsv: 6 };
-				a = o.getElementsByTagName('head')[0];
-				r = o.createElement('script');
-				r.async = 1;
-				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-				a.appendChild(r);
-			})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-		</script>
 	</head>
-	<body>
-		<div class="loader">
-			<div class="inner"></div>
-		</div>
+	<body class="is-preload">
+		<!-- Banner -->
+		<section id="banner">
+			<header>
+				<h2>UX Redesign Landing Page Case Study-</h2>
+			</header>
+			<p>Evaluating and Redesign Landing Page to Improve User Experience</p>
+			<p class="name">Lavender Irons M.S.Ed.</p>
+		</section>
 
-		<div class="titleMessage">
-			<div class="heading">
-				<p class="main">UX Redesign Landing Page Case Study-</p>
-				<p class="sub typed">
-					Evaluating and Redesign Landing Page to Improve User Experience
-				</p>
-				<p class="name">Lavender Irons M.S.Ed.</p>
-			</div>
-		</div>
-
-		<nav id="navigation" class="navbar navbar-expand-lg">
-			<a class="navbar-brand" href="landing.html">Welcome</a>
-
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNav"
-				aria-controls="navbarNav"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#overview"
-							>Overview <span class="sr-only"></span
-						></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#overview">Overview</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#discover">Discover</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#explore">Explore</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#test">Test</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#listen">Listen</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#notes">Notes</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-		<div id="overview" class="overviewSection section">
-			<div class="col-md-12 text-left">
-				<h2>Overview</h2>
+		<article class="container box style3">
+		
+			<section>
+				<header>
+					<h2>Overview</h2>
+				</header>
 				<p>
-					Overview: This is a review of the landing page for an e-commerce
+					This is a ux case study of the landing page for an e-commerce
 					website.
 				</p>
 
-				<h4>Meeting with stakeholders:</h4>
-				<ul>
-					<li>Current website has the following errors:</li>
-					<ul>
-						<li>
-							It is formatted like a newspaper article, yet the text reads like
+				<h4 style="padding-top: 20px">Meeting with stakeholders</h4>
+					<h6>Current website has the following errors:</h6>
+						<p style="margin-left: 50px;">* It is formatted like a newspaper article, yet the text reads like
 							a late-night infomercial.
-						</li>
-						<li>The landing page continues past the initial opening.</li>
-						<li>Large font, as well as a lot of reviews add to the length.</li>
-						<li>
-							Even though there is a separate page for both expert and
+						</p>
+						<p style="margin-left: 50px;">* The landing page continues past the initial opening.</p>
+						<p style="margin-left: 50px;">* Large font, as well as a lot of reviews add to the length.</li>
+						<p style="margin-left: 50px;">* Even though there is a separate page for both expert and
 							customer's reviews, there are still additional reviews on the
 							landing page.
-						</li>
-					</ul>
-
-					<li>Deliverables</li>
-					<ul>
-						<li>Sketches of initial ideas</li>
-						<li>Sitemap/journey map</li>
-						<li>Wireframes</li>
-						<li>Personas</li>
-					</ul>
-				</ul>
-			</div>
-		</div>
-
-		<div id="discover" class="discoverSection section">
-			<div class="col-md-11 text-left">
+							
+					<h4 style="padding-top: 20px">Deliverables</h4>
+						<p>Sketches of initial ideas</p>
+						<p>Sitemap/journey map</p>
+						<p>Wireframes</p>
+						<p>Personas</p>
+					
+			
+			</section>
+			<section>
 				<h2>Discover</h2>
-				<ul>
-					<li>Research Methods</li>
-					<ul>
-						<li>User interview</li>
-						<ul>
-							<li>Type: semi-structured</li>
-							<li>Profiles of Interviewees:</li>
-							<ul>
-								<li>5 participants: 3 female, 2 male</li>
-								<li>Age: 25 to 43</li>
-								<li>Required: large dog owner</li>
-							</ul>
-						</ul>
-					</ul>
-					<li>Activities</li>
-					<ul>
-						<li>Observe people interacting with the website</li>
-						<li>Have users walkthrough prototype.</li>
-						<li>Discuss likes/dislikes</li>
-					</ul>
-				</ul>
-			</div>
-		</div>
-
-		<div id="explore" class="exploreSection section">
-			<div class="col-md-11 text-left">
+					<h4>Research Methods</h4>
+						<p>• User interview</p>
+						<p>• Stakeholder interview</p>
+						<p>• Requirements & constraints gathering</p>
+		
+					<h4 style="padding-top: 20px">Activities</h4>
+					<p style="font-weight: 400;">* User interview :</p>
+							<p style="margin-left: 50px;">Type: semi-structured</p>
+							<p style="margin-left: 50px;">Profiles of Interviewees: 5 participants: 3 female, 2 male; Age: 25 to 43</p>
+							<p style="margin-left: 50px;">Required: large dog owner</p>
+					<p style="font-weight: 400;">* Observe people interacting with the website</p>
+					<p style="font-weight: 400;">* Have users walkthrough prototype.</p>
+					<p style="font-weight: 400;">* Discuss likes/dislikes</p>
+			
+			</section>
+			<section>
 				<h2>Explore</h2>
-				<ul>
-					<li>Research Methods</li>
-					<ul>
-						<li>Build personas</li>
-						<p>
+					<h4>Research Methods</h4>
+					<p>• Design review</p>
+					<p>• Persona building</p>
+					<p>• Task analysis</p>
+					<p>• Journey mapping</p>
+					<p>• Prototype feedback & testing</p>
+					<p>• Write user stories</p>
+					<p style="padding-bottom: 5%;"></p>
+		
+					<h4>Activities</h4>
+						<p style="font-weight: 400;">* User research to build user personas and stories</p>
+						<p style="margin-left: 50px;">
+							Personas:    
 							I conducted a short survey targeted toward key demographic of dog
 							owners to find current pain points they face in caring for their
 							dog. I supplemented the findings with additional research
@@ -207,15 +114,17 @@
 						<img class="img-fluid" src="images/lead/persona1.png" />
 						<p></p>
 						<img class="img-fluid" src="images/lead/persona2.png" />
-						<p></p>
-						<li>Write user stories</li>
-						<ul>
-							<li>
+						<p style="padding-bottom: 5%;"></p>
+						
+						<h6 style="font-weight: 400">* Write user stories</h6>
+							<p>
 								As a large dog owner, I want to easily purchase a supportive dog
 								bed on the internet, so I will not have to go to the store.
-							</li>
-						</ul>
-						<li>Design review- below shows the entire landing page:</li>
+							</p>
+							<p style="padding-bottom: 5%;"></p>
+						
+						<p style="font-weight: 400;">* Design review</p>
+						<p>Below shows the entire landing page:</p>
 						<ol>
 							<li><img class="img-fluid" src="images/lead/pic1.png" /></li>
 							<li><img class="img-fluid" src="images/lead/pic1.png" /></li>
@@ -225,9 +134,13 @@
 							<li><img class="img-fluid" src="images/lead/pic5.png" /></li>
 							<li><img class="img-fluid" src="images/lead/pic6.png" /></li>
 						</ol>
-						<li>Journey map</li>
+						<p style="padding-bottom: 5%;"></p>
+
+						<p style="font-weight: 400;">* Discuss user journey with stakeholders</p>
+						<p style="margin-left: 50px;">Journey map</p>
 						<img class="img-fluid" src="images/lead/userjourney.png" />
 						<p></p>
+						<p style="font-weight: 400;">* Task analysis</p>
 						<ol>
 							<li><img class="img-fluid" src="images/lead/uj1.png" /></li>
 							<li><img class="img-fluid" src="images/lead/uj2.png" /></li>
@@ -239,82 +152,68 @@
 							<li><img class="img-fluid" src="images/lead/uj8.png" /></li>
 							<li><img class="img-fluid" src="images/lead/uj9.png" /></li>
 						</ol>
-						<p></p>
-						<li>Prototype feedback and testing</li>
+						<p style="padding-bottom: 5%;"></p>
+						<p style="font-weight: 400;">* Iterate designs by testing paper prototypes with users in realtime.
+						</p>
 						<p>IN PROGRESS</p>
-					</ul>
-					<li>Activities</li>
-					<ul>
-						<li>Design review</li>
-						<li>User research to build user personas and stories</li>
-						<li>Discuss user journey with stakeholders</li>
-						<li>
-							Iterate designs by testing paper prototypes with users in
-							realtime.
-						</li>
-					</ul>
-				</ul>
-			</div>
-		</div>
-
-		<div id="test" class="testSection section">
-			<div class="col-md-11 text-left">
+						<p style="padding-bottom: 5%;"></p>
+			</section>
+			<section>
 				<h2>Test</h2>
-				<ul>
-					<li>Research Methods</li>
-					<ul>
-						<li>Qualitative usability testing</li>
-						<li>User group outreach</li>
-						<li>Social media monitoring</li>
-						<li>Benchmark testing</li>
-						<li>Accessibility evaluation</li>
-					</ul>
-					<li>Activities</li>
-					<ul>
-						<li>Talk with user groups</li>
-						<li>Check for inconsistencies</li>
-						<li>Conduct accessibility evaluation</li>
-						<li>Monitor social media accounts, talk with users</li>
-					</ul>
-				</ul>
-			</div>
-		</div>
-
-		<div id="listen" class="listenSection section">
-			<div class="col-md-11 text-left">
+					<h4>Research Methods</h4>
+						<p>• Qualitative usability testing</p>
+						<p>• User group outreach</p>
+						<p>• Social media monitoring</p>
+						<p>• Benchmark testing</p>
+						<p>• Accessibility evaluation</p>
+					<p style="padding-bottom: 5%;"></p>
+					<h4>Activities</h4>
+						<p style="font-weight: 400;">* Talk with user groups</p>
+						<p style="font-weight: 400;">* Check for inconsistencies</p>
+						<p style="font-weight: 400;">* Conduct accessibility evaluation</p>
+						<p style="font-weight: 400;">* Monitor social media accounts, talk with users</p>
+					
+			</section>
+			<section>
 				<h2>Listen</h2>
-				<ul>
-					<li>Research Methods</li>
-					<ul>
-						<li>Surveys</li>
-						<li>Analytics review</li>
-						<li>Usability review</li>
-					</ul>
-					<li>Activities</li>
-					<ul>
-						<li>Survey customers and prospective users</li>
-						<li>Monitor analytics and metrics to discover trends</li>
-						<li>Analyze search queries</li>
-						<li>
-							Collect frequently asked questions and try to solve problems
-						</li>
-					</ul>
+				
+					<h4>Research Methods</h4>
+						<p>• Surveys</p>
+						<p>• Analytics review</p>
+						<p>• Usability review</p>
+						<p style="padding-bottom: 5%;"></p>
+					<h4>Activities</h4>
+					
+						<p style="font-weight: 400;">* Survey customers and prospective users</p>
+						<p style="font-weight: 400;">* Monitor analytics and metrics to discover trends</p>
+						<p style="font-weight: 400;">* Analyze search queries</p>
+						<p style="font-weight: 400;">* Collect frequently asked questions and try to solve problems
+						</p>
+
+			</section>
+			<section>
+				<h2>Notes</h2>
+				<p>This is an ongoing project. Disclaimer: I am not affiliated with Big Barker in any capacity.</p>
+			</section>
+			
+		</article>
+
+		<section id="footer">
+			
+			<div class="copyright">
+				<ul class="col-md-12 text-center">
+					<p>&copy; Copyright Lavender Irons 2021</p>
 				</ul>
 			</div>
-		</div>
+		</section>
 
-		<div id="notes" class="notesSection section">
-			<div class="col-md-11 text-left">
-				<h2>Notes</h2>
-				<p>This is an ongoing project.</p>
-			</div>
-		</div>
-
-		<div class="copyrightSection">
-			<div class="col-md-12 text-center">
-				<p>&copy; Copyright Lavender Irons 2021</p>
-			</div>
-		</div>
-		<script src="js/landing.js"></script>
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
