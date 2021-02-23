@@ -55,6 +55,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+.border-pics { 
+	display: block; 
+	margin-before: 1px; 
+	margin-after: 1px; 
+	margin-start: auto; 
+	margin-end: auto; 
+	overflow: hidden; 
+	border-style: inset; 
+	border-width: 5px;
+}
+
 /* Basic */
 
 	html {
@@ -109,6 +120,8 @@ input, select, textarea {
 		-webkit-text-stroke: 0.25px;
 	}
 
+
+
 	h1, h2, h3, h5 {
 		text-transform: uppercase;
 		line-height: 1.75em;
@@ -147,6 +160,8 @@ input, select, textarea {
 	strong, b {
 		font-weight: 400;
 	}
+
+	
 
 	em, i {
 		font-style: italic;
